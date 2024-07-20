@@ -1,0 +1,66 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.6;
+    background-image:url("comm_img.png");
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0px 0;
+}
+
+header {
+    
+    color: #a61010;
+    padding: 10px 0;
+    padding-left: 20px;
+    margin: 100px 20px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px 0;
+}
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    text-align: center;
+    padding: 10px 20px;
+    padding-bottom: 10px;
+    padding-top: 28px;
+    border-radius: 12px;
+    border-color: 21px solid black;
+    margin: 100px ;
+    margin-bottom: 0px;
+    font-style: initial;
+    
+}
